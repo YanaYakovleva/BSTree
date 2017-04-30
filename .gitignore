@@ -77,3 +77,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/BSTree.VC.VC.opendb

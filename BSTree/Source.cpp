@@ -126,7 +126,7 @@ BST* insertFromArray(BST *root, int *arr, int n)
 BST* balance(BST *root)
 {
 	int i = 0;
-	int N=256;
+	int N=255;
 	int *tempArr = (int*)malloc(N * sizeof(int));
 	int n = insertInArray(root, tempArr,i);
 	root = deleteTree(root);
